@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jasna.myapplication_2.MainActivity">
+
+    <Button
+        android:id="@+id/dodaj"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="+"
+        android:textColor="#F7F7FA"
+        android:background="#1313EE"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:hint="Add new planet here"
+        android:textStyle="italic"
+        android:textColor="#000005"
+        android:layout_above="@+id/dugme"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint = "#1313EE"
+        android:layout_alignBaseline="@+id/dodaj"
+        android:layout_alignBottom="@+id/dodaj"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp" />
+
+
+    <Button
+        android:id="@+id/dugme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show all planets"
+        android:background="#1313EE"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#F7F7FA"
+        android:layout_below="@id/dodaj"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_below="@id/dugme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+</RelativeLayout>

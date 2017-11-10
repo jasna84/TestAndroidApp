@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">MyApplication-2</string>
+
+    <string name="mercury">
+       Mercury is the smallest and innermost planet in the Solar System. Its orbital period around the Sun of 88 days is the shortest of all the planets in the Solar System. It is named after the Roman deity Mercury, the messenger to the gods.
+   </string>
+
+    <string name="venus">
+      Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. It has no natural satellites.
+   </string>
+
+    <string name="earth">
+       3rd Rock from the Sun!
+   </string>
+
+    <string name="mars">
+       Yummy!
+   </string>
+
+    <string name="jupiter" >
+       Jupiter i Nevera - svemir pljeskavica!
+    </string>
+
+    <string name="saturn">
+       Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth. It has only one-eighth the average density of Earth, but with its larger volume Saturn is over 95 times more massive. Saturn is named after the Roman god of agriculture; its astronomical symbol (♄) represents the god\'s sickle.
+   </string>
+
+    <string name="uranus">
+       LOL
+   </string>
+
+    <string name="neptune">
+       Shortly after its discovery, Neptune was referred to simply as "the planet exterior to Uranus" or as "Le Verrier's planet". The first suggestion for a name came from Galle, who proposed the name Janus. In England, Challis put forward the name Oceanus.
+   </string>
+
+    <string name="pluto">
+       Pluto Has Been Officially Reclassified As A Planet. In your face, IAU turds!
+   </string>
+
+</resources>
